@@ -225,3 +225,53 @@ footer{
   background: white;
   color: #000;
 }
+
+@media screen and (max-width: 600px) {
+
+  .conatiner{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .hero-text{
+    font-size: 22px;
+    width: 80%;
+  }
+
+  .scroll{
+    font-size: 12px;
+    width: 80%;
+  }
+
+  .icons{
+    display: none;
+  }
+
+  .section-title{
+    font-size: 60px;
+    margin-bottom: 5px;
+  }
+
+  .period{
+    width: 15px;
+    height: 15px;
+  }
+  
+  .title-subheading{
+    font-size: 14px;
+  }
+
+  .word-title{
+    font-size: 24px;
+  }
+
+  .coffee-text{
+    font-size: 20px;
+    width: 60%;
+  }
+
+  .single_card{
+    width: 90%;
+    height: 400px;
+  }
+}
